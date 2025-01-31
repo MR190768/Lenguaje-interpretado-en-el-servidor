@@ -14,7 +14,7 @@ body {
   }
   
   ::-webkit-scrollbar-thumb {
-      background-color: #f90a23;
+      background-color: #efb810 ;
       background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
   }
   
@@ -58,11 +58,11 @@ body {
    * Selection color
    */
   ::-moz-selection {
-    background-color: #FA6862;
+    background-color: #efb810 ;
     color: #fff; }
   
   ::selection {
-    background-color: #FA6862;
+    background-color: #efb810 ;
     color: #fff; }
   
   /*
@@ -103,7 +103,7 @@ body {
       outline: 0 none; }
   
   .btn-primary {
-    background-color: #FA6862;
+    background-color: #efb810 ;
     border: 0;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
@@ -112,7 +112,7 @@ body {
     padding: 0 42px;
     text-transform: uppercase; }
     .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
-      background-color: #f9423a; }
+      background-color: #efb810 }
   
   .btn-border {
     border: 1px solid #d7d8db;
@@ -152,7 +152,7 @@ body {
   
   .primary,
   .link:hover {
-    color: #FA6862; }
+    color: #efb810 ; }
   
   .no-gutter {
     margin-left: 0;
@@ -183,7 +183,7 @@ body {
     justify-content: space-between; }
   
   .nicescroll-cursors {
-    background: #FA6862 !important; }
+    background: #efb810  !important; }
   
   .preloader {
     bottom: 0;
@@ -201,7 +201,7 @@ body {
       display: none; }
   
   .loading-mask {
-    background-color: #FA6862;
+    background-color: #efb810 ;
     height: 100%;
     left: 0;
     position: absolute;
@@ -247,7 +247,7 @@ body {
   -------------------------------------------------*/
   .mt20{margin-top:20px;}
   .site-wrapper {
-    border-top: 4px solid #ff0037; }
+    border-top: 4px solid #efb810 ; }
   
   .page-close {
     font-size: 30px;
@@ -305,7 +305,7 @@ body {
         width: 96px;
         bottom: 14px; }
       .section-title h3::after {
-        background-color: #FA6862;
+        background-color: #efb810 ;
         width: 73px; }
     .section-title.light h3 {
       color: #fff; }
@@ -379,7 +379,7 @@ body {
           height: 5px; }
       .hexagon-item:hover .hex-item div::before,
       .hexagon-item:hover .hex-item div::after {
-        background-color: #ff0037; }
+        background-color: #efb810; }
       .hexagon-item:hover .hex-content svg {
         -webkit-transform: scale(0.97);
         -moz-transform: scale(0.97);
@@ -503,8 +503,10 @@ body {
       transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; }
     .hex-content:hover {
       color: #fff; }
-  
-  .page-home .hexagon-item:nth-last-child(1), .page-home .hexagon-item:nth-last-child(2), .page-home .hexagon-item:nth-last-child(3) {
+  /*------------------------------------------------
+      Modificar ubicacion de los hexagonos
+  -------------------------------------------------*/
+  .page-home .hexagon-item:nth-child(5), .page-home .hexagon-item:nth-child(6), .page-home .hexagon-item:nth-child(7),.page-home .hexagon-item:nth-child(8) {
       -webkit-transform: rotate(30deg) translate(87px, -80px);
       -moz-transform: rotate(30deg) translate(87px, -80px);
       -ms-transform: rotate(30deg) translate(87px, -80px);
@@ -551,7 +553,7 @@ body {
   
   .hexagon-item:hover .icon i
   {
-    color:#ff0037;
+    color:#efb810;
     transition:0.6s;
     
   }
