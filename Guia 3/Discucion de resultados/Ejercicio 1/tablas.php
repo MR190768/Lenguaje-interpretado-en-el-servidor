@@ -36,7 +36,7 @@
                             <?php
                             if($_SERVER["REQUEST_METHOD"]=="POST"){
                                 $numer=[1,2,3,4,5,6,7,8,9,10];
-                                $numero=$_POST["number"]; 
+                                $numero=$_POST["number"];
                             ?>
                             <table class="table table-fixed">
                             <tbody>
